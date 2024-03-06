@@ -9,14 +9,81 @@
 --black: #1A1B25;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
 
-/* SCSS Gradient */
-/* $gradient-top: linear-gradient(0deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-right: linear-gradient(90deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-bottom: linear-gradient(180deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-left: linear-gradient(270deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-top-right: linear-gradient(45deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-bottom-right: linear-gradient(135deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-top-left: linear-gradient(225deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-bottom-left: linear-gradient(315deg, #818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff);
-$gradient-radial: radial-gradient(#818479ff, #b5cbb7ff, #d2e4c4ff, #e4e9b2ff, #e7e08bff); */
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 50%; */
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER SECTION */
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+h1{
+    font-family: "Ojuju", sans-serif;
+    font-weight: 900;
+    font-size: 250px;
+    padding-top: 400px;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800 */
+
+/* .ojuju {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.card{
+    display: block;
+    margin-top: 1100px;
+    padding: 0 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    font-family: "Ojuju";
+    font-weight: 600;
+}
+
+.kissimg{
+lodlfna
+}
+
+img{
+    width: 250px;
+    height: 100vh;
+}
+
+
+
+  
+
+
+
+
