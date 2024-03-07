@@ -7,75 +7,32 @@
 --primary-color: #e7e08bff;
 --white:#ffffff;
 --black: #1A1B25;
+
+--primary-font: "Lato", sans-serif;
+--secondary-font: "Ubuntu", sans-serif;
+--header-font: "Rubik", sans-serif
 }
 
-body{
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
+}
+
+nav{
     display: flex;
-    justify-content: center;
+    font-family: var(--secondary-font);
     background-color: var(--primary-color);
-}
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    /* width: 50%; */
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-nav ul li {
-    padding: 10px;
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-/* HEADER SECTION */
-.hero-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-}
-
-h1{
-    font-family: "Ojuju", sans-serif;
-    font-weight: 900;
-    font-size: 24px;
-    /* padding-top: 400px; */
-}
-
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 800 */
-
-/* .ojuju {
-  font-family: "Ojuju", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
-/* .card{
-    display: block;
-    margin-top: 1100px;
-    padding: 0 500px;
-    background-color: #ffffff;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
-    max-width: 400px;
-    font-family: "Ojuju";
-    font-weight: 600;
-}
-
-/* .kissimg{
-lodlfna
-} */
-
-/* img{
-    width: 250px;
-    height: 100vh;
-} */
